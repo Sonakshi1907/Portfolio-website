@@ -32,6 +32,9 @@ body {
   align-items: center;
   padding: 2vw;
   border-bottom: 1px solid var(--primary);
+  position: fixed;
+  gap: 4rem;
+  width: 100%;
 }
 
 .navbar a {
@@ -59,6 +62,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 2vw;
 }
 .hero-content {
   display: flex;
@@ -87,6 +91,15 @@ body {
   background-color: var(--primary);
   padding: 1vw 2vw;
   border-radius: 2vw;
+}
+.hero-image img {
+  margin: 2rem;
+  width: 20vw;
+  height: 30vw;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  object-fit: cover;
+  box-shadow: 0 0 30px #bc3699;
 }
 #about {
   background: var(--bg);
@@ -119,7 +132,10 @@ body {
   height: 50vh;
 }
 h2 {
+  display: inline;
   color: var(--primary);
+  text-shadow: 1px 1px #eee7ee;
+  font-size: 2.5vw;
 }
 #skills {
   background: var(--bg);
@@ -200,6 +216,241 @@ textarea {
   color: var(--text);
   min-height: 10vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   justify-content: center;
+  border: 1px dotted var(--bg);
+  background-color: var(--text-light);
+  font-weight: 00;
+}
+.footer-brand h2 {
+  color: var(--bg);
+  font-size: 1rem;
+}
+.footer-container {
+  display: flex;
+  padding: 2rem 4rem;
+  gap: 6rem;
+}
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+.footer-bottom {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+
+  .navbar {
+    gap: 1.5rem;
+    padding: 20px;
+    font-size: 0.5rem;
+  }
+
+  .nav-links {
+    font-size: 0.5rem;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav-button {
+    width: 10vw;
+  }
+
+  .nav-button a {
+    font-size: 16px;
+    padding: 1.5px 11px;
+    font-size: 0.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  /* Hero */
+
+  #home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .hero-content {
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content h2 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .hero-buttons a {
+    font-size: 16px;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 35vw;
+    height: 39vh;
+    margin-bottom: 30px;
+  }
+
+  /* About */
+
+  .about-container {
+    gap: 30px;
+    padding: 25px;
+  }
+
+  .about-content {
+    line-height: 1.8;
+  }
+
+  .personal-info {
+    height: auto;
+  }
+
+  /* Skills */
+  .skills-container {
+    line-height: 1.2rem;
+    gap: 10px;
+  }
+  .skills-category ul {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+  }
+
+  /* Education */
+
+  #education {
+    flex-direction: column;
+  }
+
+  .education-card {
+    line-height: 1.8;
+  }
+
+  .education-highlights ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Contact */
+  .container {
+    padding: 1.5rem;
+    gap: 1.4rem;
+    font-size: 0.8rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+
+  .container button {
+    width: 100%;
+    padding: 14px;
+  }
+
+  /* Footer */
+
+  #footer {
+    padding: 10px 10px;
+    font-size: 0.5rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction:;
+    gap: 30px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin: 20px 0;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+/* =========================
+      TABLET
+========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-links {
+    gap: 25px;
+  }
+
+  .nav-button a {
+    font-size: 15px;
+  }
+
+  #home {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .hero-image img {
+    width: 320px;
+    margin-top: 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 50px;
+  }
+
+  .hero-content h2 {
+    font-size: 28px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .skills-category ul {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
 }
