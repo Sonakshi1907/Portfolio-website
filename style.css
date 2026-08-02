@@ -31,10 +31,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2vw;
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 0px solid var(--primary);
   position: fixed;
   gap: 4rem;
   width: 100%;
+  box-shadow: inset 0 0 30px #ff9eea;
 }
 
 .navbar a {
@@ -54,7 +55,9 @@ body {
   padding: 1vw;
   border-radius: 2vw;
   font-size: 1.5vw;
+  box-shadow: inset 0 0 30px #cd2a99;
 }
+
 #home {
   background: var(--bg);
   color: var(--text);
@@ -71,7 +74,9 @@ body {
 }
 .hero-content h1 {
   color: var(--primary);
+  text-shadow: 0px 1px 40px #cd2a99;
 }
+
 .hero-buttons {
   display: flex;
   gap: 2vw;
@@ -91,6 +96,7 @@ body {
   background-color: var(--primary);
   padding: 1vw 2vw;
   border-radius: 2vw;
+  box-shadow: inset 0 0 30px #e5519c;
 }
 .hero-image img {
   margin: 2rem;
@@ -125,6 +131,7 @@ body {
   flex-direction: column;
   gap: 8vw;
   border-radius: 2vw;
+  box-shadow: 0 0 20px #ff1ecf;
 }
 .personal-info {
   background-color: var(--text-light);
@@ -134,8 +141,8 @@ body {
 h2 {
   display: inline;
   color: var(--primary);
-  text-shadow: 1px 1px #eee7ee;
-  font-size: 2.5vw;
+  text-shadow: 1px 5px 10px #9a4ae7;
+  font-size: 3vw;
 }
 #skills {
   background: var(--bg);
@@ -155,8 +162,16 @@ h2 {
   padding-left: 3vw;
   text-decoration: none;
 }
+.skills-category li {
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  box-shadow: inset 0 0 10px #ff1ecf;
+}
+
 h3 {
-  color: var(--text-light);
+  color: #bcebff;
+  text-shadow: 0 5px 10px #000000;
 }
 #education {
   background: var(--bg);
@@ -181,8 +196,10 @@ h3 {
 }
 .education-highlights li {
   padding: 2vw;
-  background-color: var(--text-light);
+  background-color: var(--bg);
   border-radius: 2vw;
+  box-shadow: 0 0 30px #ff1ecf;
+  margin: 0.4rem;
 }
 ul {
   list-style: none;
@@ -206,10 +223,10 @@ textarea {
 }
 .container button {
   margin-top: 2vw;
-  background-color: var(--text-light);
-  color: var(--text);
-  padding: 1vw;
+  background-color: var(--primary);
+  padding: 1vw 2vw;
   border-radius: 2vw;
+  box-shadow: inset 0 0 30px #e5519c;
 }
 #footer {
   background: var(--bg);
@@ -220,8 +237,9 @@ textarea {
   align-items: start;
   justify-content: center;
   border: 1px dotted var(--bg);
-  background-color: var(--text-light);
+  background-color: var(--bg);
   font-weight: 00;
+  box-shadow: inset 0 0 300px #ff1ecf;
 }
 .footer-brand h2 {
   color: var(--bg);
@@ -231,6 +249,11 @@ textarea {
   display: flex;
   padding: 2rem 4rem;
   gap: 6rem;
+  line-height: 1.5rem;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
@@ -240,22 +263,62 @@ a {
   display: flex;
 }
 
+/* =========================
+   Scroll To Top Button
+========================= */
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#scrollTopBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px var(--primary);
+}
+
+#scrollTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (max-width: 768px) {
   /* Navbar */
 
   .navbar {
-    gap: 1rem;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.6rem;
+    padding: 10px;
     font-size: 0.5rem;
   }
 
   .nav-links {
     font-size: 0.5rem;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   .nav-button {
-    width: 10vw;
   }
 
   .nav-button a {
@@ -275,6 +338,7 @@ a {
     padding: 40px 20px;
     font-size: 0.8rem;
     width: 100%;
+    padding-top: 5rem;
   }
 
   .hero-content {
@@ -299,7 +363,7 @@ a {
   }
 
   .hero-buttons a {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .btn1,
@@ -332,14 +396,19 @@ a {
   }
 
   /* Skills */
+
   .skills-container {
+    display: flex;
+    flex-direction: column;
     line-height: 1.2rem;
-    gap: 10px;
+    gap: 20px;
+    font-size: 0.9rem;
   }
   .skills-category ul {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 2rem;
     padding-left: 20px;
+    font-size: 0.7rem;
   }
 
   /* Education */
@@ -371,7 +440,7 @@ a {
   }
 
   .container button {
-    width: 100%;
+    width: 40%;
     padding: 14px;
   }
 
@@ -384,12 +453,14 @@ a {
 
   .footer-container {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+
+    gap: 20px;
+    line-height: 1rem;
   }
 
   .social-icons {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 2px;
     margin: 20px 0;
@@ -421,6 +492,7 @@ a {
     flex-direction: column;
     text-align: center;
     padding: 50px;
+    padding-top: 5rem;
   }
 
   .hero-image img {
@@ -448,12 +520,12 @@ a {
 
   .form-group input,
   .form-group textarea {
-    width: 100%;
+    width: 50%;
   }
 
   .footer-container {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 50px;
   }
 }
