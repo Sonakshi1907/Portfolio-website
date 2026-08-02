@@ -1,71 +1,178 @@
 # 🌐 Personal Portfolio Website
 
-🚀 This project is being developed as part of my **Web Development Internship at Codomax Digital Solutions**. The aim is to build a modern, responsive, and interactive portfolio website while following professional web development and Git practices.
+🚀 This project is being developed as part of my **Web Development Internship at Codomax Digital Solutions**. The goal is to design and develop a modern, responsive, and interactive portfolio website while following professional web development and GitHub best practices.
+
+---
 
 ## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6)
 - Git
 - GitHub
+- Font Awesome
 
-## 🎯 Goals
+---
 
-- Build a responsive and modern portfolio website
-- Practice professional Git & GitHub workflow
-- Improve frontend development skills
-- Showcase projects and technical skills
-- Deploy the portfolio using GitHub Pages
+## ✨ Features
 
-## 📌 Progress
+- 📱 Fully Responsive Design
+- 🎨 Modern UI with Custom Theme
+- 🧭 Sticky Navigation Bar
+- 🔗 Smooth Scrolling Navigation
+- 📌 Active Navigation Highlight (Scroll Spy)
+- ⬆️ Scroll-to-Top Button
+- 📄 Download Resume Button
+- 📝 Contact Form
+- 💡 Semantic HTML5 Structure
+- ♿ Accessibility-Friendly Layout
+- 🎯 Optimized for Desktop, Tablet & Mobile
 
-### ✅ Day 1 – Project Setup
+---
 
-- Development environment configured
-- Git & GitHub setup completed
+## 🎯 Project Goals
+
+- Build a professional portfolio website
+- Practice real-world HTML, CSS & JavaScript
+- Learn Responsive Web Design
+- Improve Git & GitHub workflow
+- Showcase projects, education and skills
+- Deploy using GitHub Pages
+
+---
+
+# 📌 Development Progress
+
+## ✅ Day 1 – Project Setup
+
+- VS Code setup
+- Git & GitHub configured
 - Repository initialized
 - Project folder structure created
 
-### ✅ Day 2 – HTML Development
+---
+
+## ✅ Day 2 – HTML Development
 
 - Created semantic HTML structure
-- Built the Navigation Bar
-- Developed the Hero Section
-- Developed the About Section
-- Added accessibility-friendly HTML elements
+- Built Navigation Bar
+- Developed Hero Section
+- Developed About Section
+- Added accessibility-friendly HTML
+
+---
+
+## ✅ Day 3 – Website Structure
+
+- Added Skills Section
+- Added Education Section
+- Created Contact Form
+- Built Footer Section
+- Improved semantic structure
+
+---
+
+## ✅ Day 4 – CSS Styling
+
+- Applied custom color theme
+- Added typography
+- Styled buttons
+- Created responsive layouts using Flexbox
+- Improved spacing and alignment
+- Added hover effects
+
+---
+
+## ✅ Day 5 – Responsive Layout
+
+- Used Flexbox for responsive sections
+- Implemented CSS Grid where required
+- Improved spacing across devices
+- Optimized layouts for different screen sizes
+
+---
+
+## ✅ Day 6 – Media Queries
+
+- Mobile Responsive Design
+- Tablet Responsive Design
+- Desktop Optimization
+- Responsive Navigation
+- Responsive Hero Section
+- Responsive Contact Form
+- Responsive Footer
+
+---
+
+## ✅ Day 7 – JavaScript Basics
+
+- Created external JavaScript file
+- Implemented Scroll-to-Top Button
+- Added Smooth Scroll functionality
+- Built Active Navigation Highlight (Scroll Spy)
+- Learned DOM Manipulation
+- Used Event Listeners
+- Improved Website Interactivity
+
+---
 
 ## 📂 Project Structure
 
-```
+```text
 portfolio-website/
 │
 ├── assets/
 │   ├── images/
 │   └── icons/
 │
-├
-|── style.css
-│
-├
-|── script.js
-│
 ├── index.html
+├── style.css
+├── script.js
 ├── README.md
 └── .gitignore
 ```
 
+---
+
 ## 🚀 Upcoming Tasks
 
 - Projects Section
-- Skills Section
-- Contact Section
-- CSS Styling
-- Responsive Design
-- JavaScript Functionality
+- Experience Section
+- Resume Improvements
+- Contact Form Validation
+- Animations & Transitions
+- Performance Optimization
+- GitHub Pages Deployment
+- Final Documentation
+
+---
+
+## 📸 Screenshots
+
+> Screenshots will be added as the project progresses.
+
+---
+
+## 🌍 Live Demo
+
+🚧 Coming Soon (GitHub Pages)
+
+---
+
+## 🤝 Connect With Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/sonakshi-soni-14595b37b
+- 💻 GitHub: https://github.com/Sonakshi1907
+
+---
 
 ## 👨‍💻 Author
 
-**Sonakshi Soni**
+### **Sonakshi Soni**
 
-BCA Student | Frontend Developer | Passionate about building modern web experiences.
+BCA Student • Frontend Developer • Passionate about building modern, responsive and user-friendly web experiences.
+
+---
+
+⭐ If you like this project, don't forget to **Star** the repository.
