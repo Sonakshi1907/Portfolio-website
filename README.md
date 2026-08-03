@@ -117,6 +117,16 @@
 
 ---
 
+## ✅ Day 8 – Projects Section
+
+- Created a dedicated Featured Projects section
+- Added four responsive project cards
+- Showcased Portfolio, Coffee Shop, Profile Card Generator, and Lazarev-inspired Website
+- Designed modern project cards with hover animations
+- Added technology stack badges for each project
+- Integrated GitHub and Live Demo buttons
+- Improved portfolio layout and project presentation
+
 ## 📂 Project Structure
 
 ```text
