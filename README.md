@@ -127,6 +127,18 @@
 - Integrated GitHub and Live Demo buttons
 - Improved portfolio layout and project presentation
 
+---
+
+## ✅ Day 9 – Skills, Experience & Resume Section
+
+- Designed a premium Skills section with progress bars and technology icons
+- Created a modern Experience section with internship timeline
+- Added Web Development Internship details
+- Showcased personal projects and technical experience
+- Implemented a functional Resume Download button
+- Improved UI with glassmorphism cards, hover effects, and gradient styling
+- Enhanced overall responsiveness and user experience
+
 ## 📂 Project Structure
 
 ```text
