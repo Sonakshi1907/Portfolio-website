@@ -139,6 +139,18 @@
 - Improved UI with glassmorphism cards, hover effects, and gradient styling
 - Enhanced overall responsiveness and user experience
 
+---
+
+## ✅ Day 10 – Contact Page & Form Validation
+
+- Built a professional Contact section with a clean layout
+- Added social media links for GitHub, LinkedIn, and Email
+- Implemented client-side form validation using JavaScript
+- Displayed validation messages for invalid or empty inputs
+- Improved accessibility and user experience of the contact form
+- Enhanced responsiveness across mobile, tablet, and desktop
+- Refined the overall UI to maintain a consistent portfolio design
+
 ## 📂 Project Structure
 
 ```text
