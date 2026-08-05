@@ -782,69 +782,127 @@
      CONTACT SECTION
 ========================= -->
 
-      <section id="contact" aria-labelledby="contact-heading">
-        <div class="container">
-          <h2 id="contact-heading">Contact Me</h2>
+      <section id="contact">
+        <div class="contact-container">
+          <div class="contact-heading">
+            <h2>Let's Connect ✨</h2>
 
-          <p>
-            Have a project in mind or want to connect? Feel free to reach out.
-            I'll be happy to hear from you!
-          </p>
+            <p>
+              Have an idea? Looking for a developer? Or just want to say hello?
+              I'd love to hear from you.
+            </p>
+          </div>
 
-          <form action="#" method="post">
-            <div class="form-group">
-              <label for="name">Full Name</label>
+          <div class="contact-wrapper">
+            <!-- ================= PROFILE CARD ================= -->
 
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Enter your full name"
-                required
-              />
+            <div class="profile-card">
+              <img src="assets/images/profile-photo.png" alt="Profile" />
+
+              <h3>Sonakshi Soni</h3>
+
+              <span class="role"> Frontend Developer </span>
+
+              <div class="availability">
+                <span class="dot"></span>
+
+                Available for Internship
+              </div>
+
+              <div class="profile-details">
+                <div>
+                  <i class="fa-solid fa-location-dot"></i>
+
+                  Ayodhya, India
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-envelope"></i>
+
+                  sonakshi@email.com
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-phone"></i>
+
+                  +91 XXXXX XXXXX
+                </div>
+              </div>
+
+              <div class="skills">
+                <span>HTML</span>
+
+                <span>CSS</span>
+
+                <span>JavaScript</span>
+
+                <span>Git</span>
+
+                <span>GitHub</span>
+              </div>
+
+              <div class="socials">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+
+              <p class="quote">"Let's create something awesome together."</p>
             </div>
 
-            <div class="form-group">
-              <label for="email">Email Address</label>
+            <!-- ================= CONTACT FORM ================= -->
 
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter your email"
-                required
-              />
+            <div class="contact-card">
+              <h3>Tell Me About Your Idea 💡</h3>
+
+              <p>
+                Whether it's a project, internship opportunity, or
+                collaboration, my inbox is always open.
+              </p>
+
+              <form id="contact-form">
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="👋 What's your name?"
+                  required
+                />
+                <small class="error" id="nameError"></small>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="📧 Where can I reach you?"
+                  required
+                />
+                <small class="error" id="emailError"></small>
+                <input
+                  id="subject"
+                  type="text"
+                  placeholder="🚀 What's this about?"
+                  required
+                />
+                <small class="error" id="subjectError"></small>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Tell me about your project or simply say hello..."
+                ></textarea>
+                <small class="error" id="messageError"></small>
+                <button type="submit">
+                  <i class="fa-solid fa-paper-plane"></i>
+
+                  Send Message
+                </button>
+              </form>
+              <p id="successMessage"></p>
+              <span class="reply"> ⚡ I usually reply within 24 hours. </span>
             </div>
-
-            <div class="form-group">
-              <label for="subject">Subject</label>
-
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                placeholder="Enter subject"
-                required
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="message">Message</label>
-
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                placeholder="Write your message..."
-                required
-              >
-              </textarea>
-            </div>
-
-            <button type="submit">Send Message</button>
-          </form>
+          </div>
         </div>
       </section>
+
       <!-- =========================
      FOOTER SECTION
 ========================= -->
