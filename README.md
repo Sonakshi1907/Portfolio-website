@@ -151,6 +151,21 @@
 - Enhanced responsiveness across mobile, tablet, and desktop
 - Refined the overall UI to maintain a consistent portfolio design
 
+---
+
+### ✅ Day 11 – Animations & User Experience
+
+- Added smooth scrolling across all sections
+- Implemented GSAP scroll-triggered animations
+- Created an interactive custom cursor with hover effects
+- Added a scroll-to-top button with smooth animation
+- Highlighted active navigation links while scrolling
+- Enhanced buttons, cards, and sections with modern hover effects
+- Integrated Typed.js typing animation in the Hero section
+- Improved overall user experience with smooth transitions and interactive UI
+
+---g
+
 ## 📂 Project Structure
 
 ```text
