@@ -71,18 +71,47 @@
           <h1>Sonakshi</h1>
 
           <h4>
-            Frontend Developer | Problem Solver | Tech Enthusiast | Exploring AI
+            <span id="typing"></span>
+            <!-- Frontend Developer | Problem Solver | Tech Enthusiast | Exploring AI -->
           </h4>
 
-          <p>
-            I build responsive, user-friendly, and modern web experiences while
-            continuously improving my frontend development skills.
-          </p>
+          <p>Turning Your Ideas Into Digital Reality.</p>
 
           <div class="hero-buttons">
-            <div class="btn1"><a href="#projects"> View My Projects </a></div>
+            <div class="btn1">
+              <a href="#projects"> 🚀 Explore Projects </a>
+            </div>
 
-            <div class="btn2"><a href="#contact"> Contact Me </a></div>
+            <div class="btn2"><a href="#contact"> Let's Connect </a></div>
+          </div>
+          <!-- =========================
+        HERO STATS
+========================= -->
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <h3>15+</h3>
+
+              <p>Projects</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>100+</h3>
+
+              <p>Git Commits</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>10+</h3>
+
+              <p>Technologies</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>1</h3>
+
+              <p>Internship</p>
+            </div>
           </div>
         </div>
 
@@ -93,6 +122,7 @@
           />
         </div>
       </section>
+
       <!-- =========================
      ABOUT SECTION
 ========================= -->
@@ -100,9 +130,9 @@
       <section id="about">
         <div class="about-container">
           <div class="about-content">
-            <h2>About Me</h2>
+            <h2 class="heading">About Me</h2>
 
-            <p>
+            <!-- <p>
               Hello! I'm
               <strong style="color: var(--primary)">Sonakshi Soni</strong>, a
               BCA student and aspiring Frontend Developer with a passion for
@@ -115,6 +145,24 @@
               I believe in continuous learning and regularly improve my
               development skills by building real-world projects, exploring
               modern web technologies, and practicing problem-solving.
+            </p> -->
+            <span>💡</span>
+
+            <h3>I don't just write code...</h3>
+
+            <p>
+              I build digital experiences that solve problems, create impact,
+              and leave a lasting impression.
+            </p>
+            <br />
+            <p>
+              Whether it's an internship, freelance project, or an exciting
+              collaboration, I'm always eager to connect with people and deliver
+              exceptional results.
+            </p>
+            <p>
+              Each project is done with the same dedication and passion to
+              deliver high-quality results .
             </p>
           </div>
 
@@ -122,9 +170,10 @@
             <h3>Career Goal</h3>
 
             <p>
-              My goal is to become a skilled Full Stack Web Developer by
-              mastering modern web technologies and building impactful,
-              real-world applications that solve meaningful problems.
+              I'm continuously expanding my skills in Frontend Development while
+              exploring Data Structures & Algorithms, Java, and React to become
+              a well-rounded Full Stack Developer capable of building scalable
+              and impactful web applications.
             </p>
           </div>
         </div>
@@ -134,7 +183,7 @@
 ========================= -->
       <section id="skills">
         <div class="skills-container">
-          <h2>Skills</h2>
+          <h2 class="heading">Skills</h2>
 
           <p class="skills-subtitle">
             Here are the technologies and tools I use to build modern web
@@ -331,7 +380,7 @@
 
       <section id="education">
         <div class="education-container">
-          <h2>Education</h2>
+          <h2 class="heading">Education</h2>
 
           <div class="education-grid">
             <!-- Left Side -->
@@ -909,7 +958,7 @@
 
       <footer id="footer">
         <div class="footer-brand">
-          <h2>Sonakshi</h2>
+          <h2 style="color: var(--text)">Sonakshi</h2>
 
           <p>
             Passionate Frontend Developer and BCA student dedicated to creating
@@ -917,26 +966,6 @@
           </p>
         </div>
         <div class="footer-container">
-          <!-- Quick Links -->
-
-          <div class="footer-links">
-            <h3>Quick Links</h3>
-
-            <ul>
-              <li><a href="#home">Home</a></li>
-
-              <li><a href="#about">About</a></li>
-
-              <li><a href="#skills">Skills</a></li>
-
-              <li><a href="#education">Education</a></li>
-
-              <li><a href="#projects">Projects</a></li>
-
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-
           <!-- Contact -->
 
           <div class="footer-contact">
@@ -1001,9 +1030,19 @@
         </div>
       </footer>
     </main>
+    <!-- Custom Cursor -->
+
+    <div class="cursor"></div>
+
+    <div class="cursor-dot"></div>
+
     <button id="scrollTopBtn" title="Go to top">
       <i class="fa-solid fa-arrow-up"></i>
     </button>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

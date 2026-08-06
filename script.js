@@ -148,3 +148,106 @@ form.addEventListener("submit", function (e) {
     });
   }
 });
+let heading = document.querySelectorAll(".heading");
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.utils.toArray(".heading").forEach((heading) => {
+  gsap.from(heading, {
+    y: 80,
+    opacity: 0,
+    duration: 1,
+
+    scrollTrigger: {
+      trigger: heading,
+      start: "top 80%",
+
+      // Remove later
+    },
+  });
+});
+
+const cursor = document.querySelector(".cursor");
+
+const dot = document.querySelector(".cursor-dot");
+
+document.addEventListener("mousemove", (e) => {
+  cursor.style.left = e.clientX + "px";
+  cursor.style.top = e.clientY + "px";
+
+  dot.style.left = e.clientX + "px";
+  dot.style.top = e.clientY + "px";
+});
+
+const hoverItems = document.querySelectorAll("a,button");
+
+hoverItems.forEach((item) => {
+  item.addEventListener("mouseenter", () => {
+    cursor.style.width = "70px";
+    cursor.style.height = "70px";
+
+    cursor.style.background = "rgba(227,154,245,.15)";
+  });
+
+  item.addEventListener("mouseleave", () => {
+    cursor.style.width = "10px";
+    cursor.style.height = "10px";
+
+    cursor.style.background = "transparent";
+  });
+});
+
+let mouseX = 0;
+let mouseY = 0;
+
+let currentX = 0;
+let currentY = 0;
+
+document.addEventListener("mousemove", (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+
+  dot.style.left = mouseX + "px";
+  dot.style.top = mouseY + "px";
+});
+
+function animate() {
+  currentX += (mouseX - currentX) * 0.15;
+
+  currentY += (mouseY - currentY) * 0.15;
+
+  cursor.style.left = currentX + "px";
+  cursor.style.top = currentY + "px";
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+
+document.addEventListener("mousedown", () => {
+  cursor.style.transform = "translate(-50%,-50%) scale(.75)";
+});
+
+document.addEventListener("mouseup", () => {
+  cursor.style.transform = "translate(-50%,-50%) scale(1)";
+});
+
+new Typed("#typing", {
+  strings: [
+    "Frontend Developer",
+    "Tech Enthusiast",
+    "Problem Solver",
+    "Building Beautiful Websites",
+  ],
+
+  typeSpeed: 70,
+
+  backSpeed: 40,
+
+  backDelay: 1500,
+
+  loop: true,
+
+  showCursor: true,
+
+  cursorChar: "|",
+});
