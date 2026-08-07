@@ -164,7 +164,7 @@
 - Integrated Typed.js typing animation in the Hero section
 - Improved overall user experience with smooth transitions and interactive UI
 
----g
+---
 
 ## 📂 Project Structure
 
