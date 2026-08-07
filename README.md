@@ -166,6 +166,17 @@
 
 ---
 
+## ✅ Day 12 – Git & GitHub Pages Deployment
+
+- Reviewed and prepared the portfolio for deployment
+- Practiced Git commands for staging, committing, and pushing changes
+- Maintained the project using a structured Git workflow
+- Pushed the latest portfolio updates to GitHub
+- Deployed the portfolio website using GitHub Pages
+- Tested the live website after deployment
+- Verified website functionality, responsiveness, images, and navigation
+- Learned the basic workflow of deploying a static website from a GitHub repository
+
 ## 📂 Project Structure
 
 ```text
