@@ -216,13 +216,13 @@ portfolio-website/
 
 ## 🌍 Live Demo
 
-🚧 Coming Soon (GitHub Pages)
+[View website](https://sonakshi1907.github.io/Portfolio-website/)
 
 ---
 
 ## 🤝 Connect With Me
 
-- 💼 LinkedIn: https://www.linkedin.com/in/sonakshi-soni-14595b37b
+- 💼 LinkedIn:https://www.linkedin.com/in/sonakshi-soni-14595b37b?utm_source=share_via&utm_content=profile&utm_medium=member_android
 - 💻 GitHub: https://github.com/Sonakshi1907
 
 ---
