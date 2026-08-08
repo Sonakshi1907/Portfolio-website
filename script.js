@@ -148,10 +148,10 @@ form.addEventListener("submit", function (e) {
     });
   }
 });
-let heading = document.querySelectorAll(".heading");
+let heading = document.querySelectorAll(".about-content");
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.utils.toArray(".heading").forEach((heading) => {
+gsap.utils.toArray(".about-content").forEach((heading) => {
   gsap.from(heading, {
     y: 80,
     opacity: 0,
