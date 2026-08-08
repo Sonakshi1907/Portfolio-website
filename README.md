@@ -195,16 +195,18 @@ portfolio-website/
 
 ---
 
-## 🚀 Upcoming Tasks
+## ✅ Day 13 – Testing, Bug Fixes & Optimization
 
-- Projects Section
-- Experience Section
-- Resume Improvements
-- Contact Form Validation
-- Animations & Transitions
-- Performance Optimization
-- GitHub Pages Deployment
-- Final Documentation
+- Tested the portfolio across mobile, tablet, and desktop screen sizes
+- Identified and fixed responsive layout issues
+- Checked and resolved horizontal overflow problems
+- Debugged JavaScript and browser console errors
+- Tested navigation, animations, buttons, images, and project links
+- Improved spacing, sizing, and responsive typography
+- Cleaned up unnecessary and duplicate CSS/JavaScript
+- Optimized the overall structure and performance of the website
+- Re-tested the live GitHub Pages deployment after making fixes
+- Improved overall code quality, usability, and cross-device experience
 
 ---
 
